@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cash Register</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cash Register</h1>
+        <p id="change-due"></p>
+        <label for="cash">Enter cash from customer:</label>
+        <input id="cash" type="number" />
+        <button id="purchase-btn">Purchase</button>
+        <div class="section">
+          <div class="top">
+            <p class="total">Total: $5</p>
+          </div>
+          <div class="middle">
+            <div class="box"></div>
+          </div>
+        </div>
+         <div class="drawer">
+           <div class="left">
+             <div class="boxes"></div>
+             <div class="boxes"></div>
+             <div class="boxes"></div>
+             <div class="boxes"></div>
+             <div class="boxes"></div>
+             <div class="boxes"></div>
+             <div class="boxes"></div>
+             <div class="boxes"></div>
+             <div class="boxes"></div>
+           </div>
+           <div class="right">
+               <p><strong>Change in drawer:</strong></p>
+               <p id="pennies">Pennies: $1.01</p>
+               <p id="nickels">Nickels: $2.05</p>
+               <p id="dimes">Dimes: $3.1</p>
+               <p id="quarters">Quarters: $4.25</p>
+               <p id="ones">Ones: $90</p>
+               <p id="fives">Fives: $55</p>
+               <p id="tens">Tens: $20</p>
+               <p id="twenties">Twenties: $60</p>
+               <p id="hundreds">Hundreds: $100</p>
+           </div>
+         </div>
+         <div class="bottom">
+            <div class="circle"></div>
+         </div>
+      </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
